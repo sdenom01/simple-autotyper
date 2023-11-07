@@ -27,4 +27,4 @@ To run the script, follow these steps:
 3. Run the script using Node.js:
 
 ```bash
-node your-script-name.js
+node index.js
