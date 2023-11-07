@@ -4,7 +4,11 @@ This Node.js script automates the process of typing a user-defined message with 
 
 ## Disclaimer
 
-This script was originally created for use in Old School RuneScape (OSRS). Automating gameplay or operations in any software with scripts can be against the terms of service and could result in your account being banned or other repercussions. This script is provided for educational purposes only. Use it at your own risk and always ensure that you are complying with the software's terms of service.
+This script was originally created for use in Old School RuneScape (OSRS). 
+
+But it simply simulates key presses, so it could be used for any game.
+
+Automating gameplay or operations in any software with scripts can be against the terms of service and could result in your account being banned or other repercussions. This script is provided for educational purposes only. Use it at your own risk and always ensure that you are complying with the software's terms of service.
 
 ## Prerequisites
 
