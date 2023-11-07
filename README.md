@@ -1,13 +1,10 @@
-# simple-autotyper
-Simply configurable auto-typer.
+# Auto Typing Script
 
-This Node.js script automates sending a predefined message with a specified delay between messages. It uses the `robotjs` library to simulate keyboard input.
+This Node.js script automates the process of typing a user-defined message with specified delays. It can be used for various auto typing needs where repetitive typing is required. The script uses the `robotjs` library to simulate keyboard input.
 
 ## Disclaimer
 
-Originally created for old school runescape!
-
-Automating gameplay in Old School RuneScape, or any game, with scripts can be against the game's terms of service and could result in your account being banned. This script is provided for educational purposes only. Use it at your own risk and always ensure that you are complying with the game's terms of service.
+This script was originally created for use in Old School RuneScape (OSRS). Automating gameplay or operations in any software with scripts can be against the terms of service and could result in your account being banned or other repercussions. This script is provided for educational purposes only. Use it at your own risk and always ensure that you are complying with the software's terms of service.
 
 ## Prerequisites
 
