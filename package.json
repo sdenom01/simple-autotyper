@@ -1,0 +1,22 @@
+{
+  "name": "mac_autotyper",
+  "version": "1.0.0",
+  "description": "Simply configuratble auto-typer.",
+  "main": "index.js",
+  "scripts": {
+    "test": "start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sdenom01/simple-autotyper.git"
+  },
+  "keywords": [
+    "autotyper"
+  ],
+  "author": "Shane Denomme",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sdenom01/simple-autotyper/issues"
+  },
+  "homepage": "https://github.com/sdenom01/simple-autotyper#readme"
+}
