@@ -41,18 +41,18 @@ async function startTypingProcess() {
   async function handleTyping() {
     await typeMessage(message, charDelayMs);
     robot.keyTap('enter'); // Press enter after the message is typed
-    await sleep(loopDelayMs); // Wait before starting the next message
   }
 
   // Call handleTyping to start the process
   await handleTyping();
 
   // Set an interval to call handleTyping repeatedly
-  setInterval(handleTyping, message.length * charDelayMs + loopDelayMs);
+  const typingInterval = setInterval(handleTyping, loopDelayMs);
 
   // Listen for the 'q' key to stop the script
   input.on('keypress', async (str, key) => {
     if (key.sequence === 'q') {
+      clearInterval(typingInterval);
       console.log('Script has been stopped by the user.');
       rl.close();
       process.exit();
